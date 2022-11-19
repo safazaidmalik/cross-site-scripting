@@ -1,0 +1,14 @@
+Installation and setup:
+https://www.digitalocean.com/community/tutorials/how-to-install-django-and-set-up-a-development-environment-on-ubuntu-22-04
+
+Create Django app and connect to a database:
+https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database
+
+Create Django Models:
+https://www.digitalocean.com/community/tutorials/how-to-create-django-models
+
+Enable and connect the Django admin interface:
+https://www.digitalocean.com/community/tutorials/how-to-enable-and-connect-the-django-admin-interface
+
+Create Views in Django:
+https://www.digitalocean.com/community/tutorials/how-to-create-views-for-django-web-development
