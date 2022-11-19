@@ -12,3 +12,36 @@ https://www.digitalocean.com/community/tutorials/how-to-enable-and-connect-the-d
 
 Create Views in Django:
 https://www.digitalocean.com/community/tutorials/how-to-create-views-for-django-web-development
+
+
+
+Django Setup and creating a Django App
+
+Start your terminal and follow the following steps:
+
+1.Create and activate a virtual environment:
+  conda create -n <env-name> python=<ver.ver anaconda>
+  conda activate <env-name>
+
+2.Install mysqlclient for Database setup:
+  pip install mysqlclient
+  
+3.Install Django:
+  python -m pip install Django
+  
+4.(Optional) Enable firewalls:
+  sudo ufw allow 8000
+  
+5.Start Django project: django-admin startproject xss_demo
+
+6.(Optional): If you want to change your server ip, add your server ip address to the list of ALLOWED_HOSTS in settings.py ~/xss_demo/xss_demo.
+
+7.Create an administrative user to use the Django admin interface: python manage.py createsuperuser
+  Enter credentials for the admin.
+  
+
+
+Connecting the Django App a Database
+
+  
+  
